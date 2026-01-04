@@ -20,10 +20,10 @@ const EmptyState = () => {
         </div>
         
         <h2 className="text-xl font-semibold mb-2">
-          Welcome to Market Analyst
+          Welcome to Crypto Analyst
         </h2>
         <p className="text-muted-foreground mb-6">
-          Get real-time analysis on any trading pair. Ask about crypto, forex, or stocks to see detailed market data, order books, and candlestick patterns.
+          Get real-time analysis on any cryptocurrency pair. Ask about any crypto to see detailed market data, order books, and candlestick patterns.
         </p>
         
         <div className="grid gap-3 text-left">
@@ -33,7 +33,7 @@ const EmptyState = () => {
           </div>
           <div className="p-3 rounded-lg bg-secondary/50 border border-border">
             <p className="text-sm font-medium text-foreground mb-1">Or explore:</p>
-            <p className="text-sm text-muted-foreground font-mono">"Analyze EURUSD forex pair"</p>
+            <p className="text-sm text-muted-foreground font-mono">"Analyze SOLUSDT market trends"</p>
           </div>
         </div>
       </div>
