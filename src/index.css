@@ -6,56 +6,56 @@
 
 @layer base {
   :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 98%;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 222 47% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 174 72% 56%;
-    --primary-foreground: 222 47% 6%;
+    --primary: 174 72% 40%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 47% 12%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 222 47% 14%;
-    --muted-foreground: 215 20% 55%;
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 174 72% 56%;
-    --accent-foreground: 222 47% 6%;
+    --accent: 174 72% 40%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --success: 142 76% 46%;
-    --success-foreground: 222 47% 6%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
 
     --warning: 38 92% 50%;
-    --warning-foreground: 222 47% 6%;
+    --warning-foreground: 0 0% 100%;
 
-    --border: 222 47% 16%;
-    --input: 222 47% 16%;
-    --ring: 174 72% 56%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 174 72% 40%;
 
     --radius: 0.75rem;
 
-    --chat-user: 222 47% 14%;
-    --chat-bot: 222 47% 10%;
+    --chat-user: 210 40% 96%;
+    --chat-bot: 210 40% 98%;
     
-    --glow-primary: 0 0 20px hsl(174 72% 56% / 0.3);
-    --glow-success: 0 0 20px hsl(142 76% 46% / 0.3);
+    --glow-primary: 0 0 20px hsl(174 72% 40% / 0.2);
+    --glow-success: 0 0 20px hsl(142 76% 36% / 0.2);
 
-    --sidebar-background: 222 47% 6%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 174 72% 56%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 47% 12%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 222 47% 16%;
-    --sidebar-ring: 174 72% 56%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 174 72% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 174 72% 40%;
   }
 }
 
