@@ -28,8 +28,8 @@ const ChatInput = ({ onSend, disabled }: ChatInputProps) => {
   const suggestions = [
     "Analyze BTCUSDT",
     "Give me details on ETHUSDT",
-    "Check EURUSD forex",
-    "Analyze AAPL stock",
+    "Check SOLUSDT trends",
+    "Analyze XRPUSDT",
   ];
 
   return (

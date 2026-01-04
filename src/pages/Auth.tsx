@@ -106,9 +106,9 @@ const Auth = () => {
               <TrendingUp className="h-8 w-8 text-primary" />
             </div>
           </div>
-          <CardTitle className="text-2xl font-bold">Trading Analyst</CardTitle>
+          <CardTitle className="text-2xl font-bold">Crypto Analyst</CardTitle>
           <CardDescription>
-            AI-powered analysis for stocks, crypto, and forex
+            AI-powered analysis for cryptocurrency markets
           </CardDescription>
         </CardHeader>
         <CardContent>

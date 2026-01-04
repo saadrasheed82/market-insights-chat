@@ -10,14 +10,14 @@ const ChatHeader = () => {
           </div>
           <div>
             <h1 className="font-semibold text-lg flex items-center gap-2">
-              Market Analyst
+              Crypto Analyst
               <span className="flex items-center gap-1 text-xs font-normal text-success bg-success/10 px-2 py-0.5 rounded-full">
                 <Zap className="w-3 h-3" />
                 Live
               </span>
             </h1>
             <p className="text-sm text-muted-foreground">
-              AI-powered trading analysis for crypto, forex & stocks
+              AI-powered cryptocurrency market analysis
             </p>
           </div>
         </div>
