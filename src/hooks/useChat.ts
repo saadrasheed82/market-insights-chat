@@ -26,11 +26,12 @@ export const useChat = () => {
     setIsLoading(true);
 
     try {
-      const url = new URL(WEBHOOK_URL);
-      url.searchParams.set("message", content);
-      
-      const response = await fetch(url.toString(), {
-        method: "GET",
+      const response = await fetch(WEBHOOK_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message: content }),
       });
 
       if (!response.ok) {
